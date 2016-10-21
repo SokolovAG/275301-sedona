@@ -6,7 +6,122 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a> 
+            </li>
+            <li>
+              <a href="#">Фото и видео</a> 
+            </li>
+            <li>
+              <a class="logo" href="#">Logo</a> 
+            </li>
+            <li>
+              <a href="#">Карта штата</a> 
+            </li>
+            <li>
+              <a href="#">Гостиницы</a> 
+            </li>
+          </ul>
+        </nav>
+      </div> 
+    </header>
+     
+    <main class="page-content">
+      <div class="content-logo">
+        <img src="img/index-logo.jpg" width="1200" height="400" alt="Photo">
+      </div>
+      <section class="features">
+        <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон</p>
+         <div class="features-content">
+           <div class="features-content-left">
+             <h2>Настоящий городок</h2>
+             <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+           </div>
+           <div class="features-content-right">
+             <img src="img/photo1.jpg" width="800" height="200" alt="picture">
+           </div> 
+         </div>
+        <ul class="feature-content">
+          <li class="feature-item">
+            <h2>Жилье</h2>
+            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="feature-item">
+            <h2>Еда</h2>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="feature-item">
+            <h2>Сувениры</h2>
+            <p>Не только китайского, но и местного производства</p>
+          </li>
+        </ul> 
+ 
+         <div class="features-content">
+           <div class="features-content-left">
+             <img src="img/photo2.jpg" width="800" height="200" alt="picture">
+           </div>
+           <div class="features-content-right">
+             <h2>Там есть мост дьявола</h2>
+             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+           </div> 
+         </div>
+        <ul class="feature-content">
+          <li class="feature-item">
+            <h2>Небольшая площадь</h2>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="feature-item">
+            <h2>Красивая дорога</h2>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="feature-item">
+            <h2>Мало туристов</h2>
+            <p>Большинство едет в Гранд-Каньон и толпится там</p>
+          </li>
+        </ul>   
+      </section>
+    </main> 
 
-  </body>
+    <div class="search">
+      <h2>Заинтересовались?</h2>
+      <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    </div>
+
+    <div class="map">
+    </div>
+
+    <form class="search-form">
+       <label for="date-arrival">Дата заезда</label>
+       <input type="text" name="date-arrival" value="2016-24-04" id="date-arrival">
+       <label for="date-departure">Дата выезда</label>
+       <input type="text" name="date-departure" value="2016-04-07" id="date-departure">
+       <label for="adults">Взрослые</label>
+       <input type="number" name="adults" value="2" id="adults" min="1" max="10" step="1">
+       <label for="kids">Дети</label>
+       <input type="number" name="kids" value="0" id="kids" min="0" max="10" step="1">   
+    </form>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="hashtag">
+          <a href="http://visitsedona.com/">#visitsedona</a>
+        </div>
+    
+        <div class="footer-socials">
+          <a class="social-btn social-btn-twit" href="#">Твиттер</a>
+          <a class="social-btn social-btn-fb" href="#">Фэйсбук</a>
+          <a class="social-btn social-btn-ytb" href="#">Ютуб</a>
+        </div>
+        <div class="footer-copyright">
+          <p>Website by</p>
+          <a class="copyright-icon" href="https://htmlacademy.ru/">HTML Academy</a>
+        </div> 
+      </div> 
+    </footer>  
+    </body>
 </html>
