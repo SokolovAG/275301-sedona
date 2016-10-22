@@ -23,7 +23,7 @@
               <a href="#">Карта штата</a> 
             </li>
             <li>
-              <a href="#">Гостиницы</a> 
+              <a href="hotels.html">Гостиницы</a> 
             </li>
           </ul>
         </nav>
@@ -91,20 +91,47 @@
       <h2>Заинтересовались?</h2>
       <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     </div>
-
+    
+    <div class="search-form">
     <div class="map">
     </div>
 
-    <form class="search-form">
-       <label for="date-arrival">Дата заезда</label>
-       <input type="text" name="date-arrival" value="2016-24-04" id="date-arrival">
-       <label for="date-departure">Дата выезда</label>
-       <input type="text" name="date-departure" value="2016-04-07" id="date-departure">
-       <label for="adults">Взрослые</label>
-       <input type="number" name="adults" value="2" id="adults" min="1" max="10" step="1">
-       <label for="kids">Дети</label>
-       <input type="number" name="kids" value="0" id="kids" min="0" max="10" step="1">   
+    <div class="choose-hotel" id="choose-hotel">
+  <a href="#">Поиск гостиницы в Седоне</a>
+  <div class="choose-hotel-popup">
+    <form>
+      <fieldset class="form-row">
+        <label for="date-in">Дата заезда:</label>
+        <input type="date">
+        <span class="icon-calendar"></span>
+      </fieldset>
+
+      <fieldset class="form-row">
+        <label for="date-out">Дата выезда:</label>
+        <input type="date">
+        <span class="icon-calendar"></span>
+      </fieldset>
+
+      <fieldset class="counters form-row">
+        <fieldset class="counter">
+          <label for="counter-adult">Взрослые:</label>
+          <button type="button"></button>
+          <input type="text">
+          <button type="button"></button>
+        </fieldset>
+        <fieldset class="counter">
+          <label for="counter-children">Дети:</label>
+          <button type="button"></button>
+          <input type="text">
+          <button type="button"></button>
+        </fieldset>
+      </fieldset>
+
+      <input type="submit" value="Найти">
     </form>
+  </div>
+</div>
+      </div>
 
     <footer class="main-footer">
       <div class="container">
