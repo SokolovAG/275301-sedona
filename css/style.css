@@ -1,0 +1,12 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+.content-logo {
+    background: url(../img/welcome.png) 458px 352px no-repeat;
+}
