@@ -27,33 +27,54 @@ h1 {
 .container {
     width: 1200px;
     margin: 0 auto;
+    box-shadow: -10px 0px -15px #000000;
 }    
 
 
 .main-navigation {
-    min-height: 56px;
     margin: 0 auto;
-    padding: 0 72px;
+    line-height: 26px;
+    float: left;
+    position: relative;
+}
+
+.main-navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
     font-size: 0;
-    margin-bottom: 20px;
-}
-    
-.main-navigation ul {
-    margin: 0 auto;
 }
 
-.logo {
-    display: none;
-}
-
-li {
+.main-navigation li {
+    vertical-align: top;
     display: inline-block;
-    font-size: 16px;
-    text-align: center;
-    padding: 25px;
-    width: 200px;
+    margin-right: 40px;
+    margin-left: 25px;
+    padding: 5px 70px;
+    box-sizing: border-box;
+}
+
+.main-navigation a {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-navigation a:hover {
+    color: #a3c7de;
+}
+    
+.logo {
+    width: 138px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 600px;
     
 }
+
 
 .content-logo {
     width: 1200px;
@@ -66,12 +87,24 @@ li {
     margin: 0 auto;
     padding-top: 60px;
     text-align: center;
-    width: 470px;
+    width: 560px;
     min-height:  155px; 
 }
 
 .about h1 {
     margin-top: 35px;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    
+}
+
+.about p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+    color: #333333;
+    
 }
 
 .feauters:nth-child(2n-1) p {
@@ -85,6 +118,9 @@ li {
     float: left;
     width: 400px;
     min-height: 256px;
+    background-color: #81b3d2;
+    color: #fff;
+    margin-bottom: 40px;
 }
 
 .features-content-photo {
@@ -95,10 +131,13 @@ li {
 
 .features-title {
     text-align: center;
+    vertical-align: middle;
+    padding-top: 50px;
 }
 
 .features-content-item p {
     text-align: center;
+    vertical-align: middle;
 }
 
 .feature-content {
@@ -111,8 +150,21 @@ li {
     text-align: center;
     min-height: 230px;
     width: 330px;
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-top: 90px;
     margin-right: 60px;
+    position: relative;
+}
+
+.feature-item-extra::before {
+    content: "";
+    background-image: url(../img/house.png);
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 160px;
 }
 
 .feature-item-extra:last-child {
@@ -129,12 +181,15 @@ li {
     width: 400px;
     min-height: 256px;
     float: right;
+    background-color: #81b3d2;
+    color: #fff;
     
 }
 
 .advantage-title {
-    padding-left: 20px;
+    vertical-align: middle;
     text-align: center;
+    padding-top: 50px;
 }
 
 .advantage-content-item p {
