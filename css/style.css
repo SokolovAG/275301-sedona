@@ -427,17 +427,7 @@ h1 {
     line-height: 21px;
 }
 
-/*CHECKBOX*/
 
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"] + label {
-    display: block;
-    margin: 10px 0;
-    
-}
 
 .filter-range {
     float: right;
@@ -557,8 +547,6 @@ input[type="checkbox"] + label {
     color: #000000;
     background: #ffffff;
 }
-
-
 
 .sort-results {
     font-size: 0;
