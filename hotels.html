@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Sedona</title>
 </head>
 <body>
-  
-   <div class="container">
-      <header class="main-header">
+     
+      <header class="main-header clearfix">
+       <div class="container">
         <div class="logo">
           <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="Sedona Logo"></a>
         </div>
@@ -29,9 +30,11 @@
             </li>
           </ul>
         </nav>
+          </div>
       </header>
       
       <section class="filter-form clearfix">
+      <div class="container">
      <form class="filter" action="echo" method="post">
         <fieldset class="infrastructure">
         <legend class="infrastructure-heading">Инфраструктура:</legend>
@@ -79,9 +82,12 @@
             0<input type="range" name="range" id="range" min="0" max="3000" step="100">3000
             <button class="btn" type="submit">Показать</button>
         </fieldset>
-     </form>
-       </section>
+       </form>
+     </div>
+    </section>
+       
      <div class="sort-results clearfix">
+         <div class="container">
           <b class="sort-results-item title">Найдено: <span>3</span></b>
           <span class="sort-results-item">Сортировка:</span>
           <ul class="sort-results-item">
@@ -101,7 +107,8 @@
           </div>
         </div>
     
-  <div class="hotels clearfix">
+  <div class="hotels">
+         <div class="container">
           <div class="hotel-item photo">
             <img src="img/hotel-1.jpg" width="135" height="90" alt="Amara Resort&amp;SPA">
           </div>
@@ -181,13 +188,14 @@
               <span>Рейтинг: 9,2</span>
             </div>
           </div>
+         </div>
         </div>
      
     <footer class="main-footer clearfix">
         <div class="footer hashtag">
           <a href="http://visitsedona.com/">#VISITSEDONA</a>
         </div>
-        <div class="footer-social">
+        <div class="footer social">
           <a class="social-btn social-btn-tw" href="#">Twitter</a>
           <a class="social-btn social-btn-fb" href="#">Facebook</a>
           <a class="social-btn social-btn-ytb" href="#">Youtube</a>
