@@ -324,6 +324,10 @@ h1 {
     
 }
 
+.popup-close {
+    display: none;
+}
+
 .form {
     margin: 55px;
 }
