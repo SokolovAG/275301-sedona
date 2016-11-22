@@ -1,8 +1,14 @@
-var popup = document.querySelector(".choose-hotel-btn");
+var body = document.querySelector('body');
 
-var open = document.querySelector(".choose-hotel-popup");
+var bookingBtn = document.querySelector('.booking-btn-top');
 
-popup.addEventListener("click", function(event) {
-    event.preventDefault();
-    open.classList.toggle("popup-close");
+var bookingContainer = document.querySelector('.booking-form');
+
+// добавляем класс для боди
+body.classList.add('run-js');
+
+// нажатие кнопки
+bookingBtn.addEventListener('click', function (event) {
+  event.preventDefault();
+  bookingContainer.classList.toggle('booking-form-show');
 });
