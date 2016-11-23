@@ -8,7 +8,6 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-
   text-transform: uppercase;
 }
 
@@ -25,14 +24,12 @@ body {
 .wrapper {
   width: 1200px;
   margin: 0 auto;
-
   box-shadow: 0 0 20px -7px #000101;
 }
 
 .clearfix::after {
   display: table;
   clear: both;
-
   content: "";
 }
 
@@ -49,10 +46,8 @@ h2 {
 
 .navigation-list {
   font-size: 0;
-
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
@@ -132,9 +127,7 @@ h2 {
   bottom: 0;
   width: 100%;
   height: 57px;
-
   content: "";
-
   background-image: url("../img/white-rhomb.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -151,9 +144,7 @@ h2 {
 
 .features-top {
   line-height: 26px;
-
   margin-bottom: 51px;
-
   text-align: center;
 }
 
@@ -166,9 +157,7 @@ h2 {
 .features-content {
   width: 33.3%;
   min-height: 256px;
-
   text-align: center;
-
   color: #fff;
   background-color: #81b3d2;
 }
@@ -178,13 +167,11 @@ h2 {
   margin-top: 55px;
   margin-bottom: 24px;
   max-width: 180px;
-
   color: #fff;
 }
 
 .features-number {
   display: block;
-
   margin-bottom: 21px;
 }
 
@@ -229,12 +216,10 @@ h2 {
 
 .features-list {
   float: left;
-
   box-sizing: border-box;
   width: 33.333%;
   padding-right: 55px;
   padding-left: 55px;
-
   text-align: center;
 }
 
@@ -242,11 +227,8 @@ h2 {
   font-size: 21px;
   font-weight: bold;
   line-height: 21px;
-
   position: relative;
-
   display: block;
-
   margin-top: 162px;
 }
 
@@ -258,47 +240,38 @@ h2 {
   position: absolute;
   bottom: 50px;
   left: 50%;
-
   width: 75px;
   height: 72px;
-
   content: "";
   transform: translateX(-50%);
-
   background-image: url("../img/sprite.png");
-  background-position: -237px -10px;
+  background-position: -15px -876px;
 }
 
 .icon-food::before {
   position: absolute;
   bottom: 50px;
   left: 50%;
-
   width: 74px;
   height: 70px;
-
   content: "";
   transform: translateX(-50%);
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -143px -10px;
+  background-position: -15px -363px;
 }
 
 .icon-souvenir::before {
   position: absolute;
   bottom: 50px;
   left: 50%;
-
   width: 64px;
   height: 76px;
-
   content: "";
   transform: translateX(-50%);
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -332px -10px;
+  background-position: -15px -978px;
 }
 
 /* Преимущества */
@@ -306,16 +279,13 @@ h2 {
 .features-items {
   min-height: 256px;
   margin-bottom: 56px;
-
   background-color: #eee;
 }
 
 .features-item {
   float: left;
-
   width: 33.333%;
   padding-top: 30px;
-
   text-align: center;
 }
 
@@ -340,22 +310,18 @@ h2 {
 .booking .maps {
   width: 100%;
   height: 593px;
-
   background-image: url("../img/maps.jpg");
   background-repeat: no-repeat;
 }
 
 .booking-top {
   line-height: 24px;
-
   padding: 0;
-
   text-align: center;
 }
 
 .booking-top h2 {
   font-size: 30px;
-
   margin: 0;
   margin-bottom: 30px;
 }
@@ -369,13 +335,9 @@ h2 {
   position: absolute;
   top: 235px;
   left: 50%;
-
   width: 568px;
-  /*height: 481px;*/
   margin: 0 auto;
-
   transform: translate(-50%, 0);
-
   background: #fff;
 }
 
@@ -384,12 +346,9 @@ h2 {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-
   display: block;
-
   cursor: pointer;
   text-transform: uppercase;
-
   color: #fff;
   border: none;
 }
@@ -397,13 +356,9 @@ h2 {
 .booking-btn-top {
   width: 568px;
   height: 86px;
-
   margin: 0 auto;
-
   line-height: 86px;
-
   text-decoration: none;
-
   background: #766357;
   outline: none;
 }
@@ -412,22 +367,17 @@ h2 {
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
-
   padding: 55px;
-
   background-color: #fff;
   box-shadow: 0 3px 15px -4px #000101;
 }
 
 .booking-container input {
   font: inherit;
-
   box-sizing: border-box;
   height: 38px;
   padding: 0;
-
   text-transform: inherit;
-
   border: none;
   background-color: #f2f2f2;
 }
@@ -445,16 +395,7 @@ h2 {
 
 .booking-form-check label {
   display: inline-block;
-
   width: 111px;
-}
-
-.booking-form-check input[name="check"] {
-  /*margin-left: 21px;*/
-}
-
-.booking-form-check input[name="check-out"] {
-  /*margin-left: 17px;*/
 }
 
 .booking-form-check input:hover {
@@ -463,7 +404,6 @@ h2 {
 
 .booking-form-check input:active {
   padding-left: 10px;
-
   border: 2px solid #e5e5e5;
   outline: 0;
   background-color: #fff;
@@ -473,25 +413,21 @@ h2 {
   position: absolute;
   top: 7px;
   right: 10px;
-
   display: inline-block;
-
   width: 23px;
   height: 24px;
-
   vertical-align: middle;
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -416px -10px;
+  background-position: -15px -463px;
 }
 
 .booking-form-check span:hover {
-  background-position: -878px -10px;
+  background-position: -15px -567px;
 }
 
 .booking-form-check span:active {
-  background-position: -921px -10px;
+  background-position: -15px -515px;
 }
 
 input[type="text"]::-webkit-input-placeholder {
@@ -504,35 +440,26 @@ input[type="text"]::-webkit-input-placeholder {
 
 .form-left {
   font-size: 0;
-
   float: left;
-
   width: 50%;
 }
 
 .form-right {
   font-size: 0;
-
   float: right;
-
   width: 50%;
 }
 
 .booking-form-people label {
   font-size: 14px;
-
   display: inline-block;
-
   vertical-align: middle;
 }
 
 .booking-form-people input {
   font-size: 14px;
-
   display: inline-block;
-
   width: 39px;
-
   text-align: center;
   vertical-align: middle;
 }
@@ -540,15 +467,11 @@ input[type="text"]::-webkit-input-placeholder {
 .booking-form-people button {
   font-size: 14px;
   font-weight: bold;
-
   display: inline-block;
-
   width: 38px;
   height: 38px;
   padding: 0;
-
   vertical-align: middle;
-
   color: #a9a9a9;
   border: none;
   background-color: #f2f2f2;
@@ -575,7 +498,6 @@ input[type="text"]::-webkit-input-placeholder {
   width: 457px;
   height: 58px;
   margin-top: 54px;
-
   background: #81b3d2;
 }
 
@@ -593,20 +515,17 @@ input[type="text"]::-webkit-input-placeholder {
 .main-footer {
   min-height: 120px;
   margin-top: -120px;
-
   opacity: .9;
   background: #f9fbf6;
 }
 
 .main-footer-hotels {
   min-height: 120px;
-
   background: #fefefe;
 }
 
 .footer-hashtag {
   float: left;
-
   width: 33.33%;
   margin-top: 46px;
 }
@@ -615,37 +534,27 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-
   display: block;
-
   text-align: center;
 }
 
 .footer-social {
   font-size: 0;
-
   float: left;
-
   width: 33.33%;
   margin-top: 36px;
-
   text-align: center;
 }
 
 .social-btn {
   font-size: 0;
-
   position: relative;
-
   display: inline-block;
-
   width: 46px;
   height: 48px;
   margin-right: 6px;
-
   vertical-align: top;
   text-decoration: none;
-
   background-color: #81b3d2;
 }
 
@@ -666,19 +575,16 @@ input[type="text"]::-webkit-input-placeholder {
   z-index: 2;
   top: 50%;
   left: 50%;
-
-  width: 46px;
-  height: 48px;
-
   content: "";
   transform: translate(-50%, -50%);
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
 }
 
 .social-t::after {
-  background-position: -485px 6px;
+  width: 17px;
+  height: 15px;
+  background-position: -15px -1084px;
 }
 
 .social-t:active::after {
@@ -686,7 +592,9 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .social-fb::after {
-  background-position: -564px 3px;
+  width: 10px;
+  height: 19px;
+  background-position: -15px -827px;
 }
 
 .social-fb:active::after {
@@ -694,7 +602,9 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .social-youtube::after {
-  background-position: -525px 5px;
+  width: 20px;
+  height: 16px;
+  background-position: -15px -1129px;
 }
 
 .social-youtube:active::after {
@@ -703,27 +613,21 @@ input[type="text"]::-webkit-input-placeholder {
 
 .footer-copyright {
   float: right;
-
   width: 33.33%;
   margin-top: 41px;
-
   text-align: center;
 }
 
 .footer-copyright span {
   display: inline-block;
-
   vertical-align: middle;
 }
 
 .footer-copyright a {
   position: relative;
-
   display: inline-block;
-
   width: 113px;
   height: 39px;
-
   vertical-align: middle;
 }
 
@@ -732,25 +636,22 @@ input[type="text"]::-webkit-input-placeholder {
   z-index: 2;
   top: 50%;
   left: 50%;
-
   width: 113px;
   height: 39px;
   margin-left: 5px;
-
   content: "";
   transform: translate(-50%, -50%);
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -10px -10px;
+  background-position: -15px -156px;
 }
 
 .footer-copyright a:hover::after {
-  background-position: -745px -10px;
+  background-position: -15px -294px;
 }
 
 .footer-copyright a:active::after {
-  background-position: -612px -10px;
+  background-position: -15px -225px;
 }
 
 /* Hotels */
@@ -762,7 +663,7 @@ input[type="text"]::-webkit-input-placeholder {
   padding-right: 6%;
   padding-left: 6%;
   color: #fff;
-  background: #30424c url("../img/background-hotels.jpg") no-repeat;
+  background: url("../img/background-hotels.jpg") no-repeat;
 }
 
 .search ul {
@@ -829,8 +730,8 @@ input[type="checkbox"] + label::before {
     display: block;
     width: 22px;
     height: 22px;
-    background: url(../img/checkbox-sprite.png) no-repeat;
-    background-position: -56px -10px;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -15px -723px;
     position: absolute;
     top: 0;
     left: 0;
@@ -838,7 +739,7 @@ input[type="checkbox"] + label::before {
 
 input[type="checkbox"]:checked + label::before {
     width: 26px;
-    background-position: -10px -10px;
+    background-position: -15px -775px;
 }
 
 .filter-range {
@@ -851,20 +752,16 @@ input[type="checkbox"]:checked + label::before {
   font-size: 16px;
   font-weight: bold;
   line-height: 21px;
-
   margin-bottom: 9px;
 }
 
 .price-controls {
   font-size: 0;
-
   position: relative;
-
   height: 33px;
   margin-bottom: 19px;
   margin-left: 12px;
-
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 2px;
 }
 
@@ -872,22 +769,17 @@ input[type="checkbox"]:checked + label::before {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   content: "";
   transform: translate(-50%, -50%);
-
   background: #fff;
 }
 
 .price-controls label {
   font-size: 14px;
   line-height: 36px;
-
   display: inline-block;
-
   cursor: pointer;
   vertical-align: top;
 }
@@ -900,27 +792,24 @@ input[type="checkbox"]:checked + label::before {
 
 .price-controls input {
   font: inherit;
-
   width: 50px;
   height: 36px;
   margin: 0;
   padding: 0;
-
   color: inherit;
   border: none;
   background: none;
+  outline: none;
 }
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
   margin-left: 12px;
 }
 
 .range-controls .scale {
-  height: 2px;
-
+  height: 1px;
   background: rgba(255, 255, 255, .3);
 }
 
@@ -934,12 +823,9 @@ input[type="checkbox"]:checked + label::before {
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   cursor: pointer;
-
   border: 8px solid #fff;
   border-radius: 50%;
   background: #ababab;
@@ -962,15 +848,11 @@ input[type="checkbox"]:checked + label::before {
   font: inherit;
   font-size: 14px;
   line-height: 20px;
-
   display: block;
-
   margin: 0 auto;
   padding: 6px 35px;
-
   cursor: pointer;
   text-transform: uppercase;
-
   color: #fff;
   border: 2px solid #fff;
   border-radius: 2px;
@@ -994,17 +876,13 @@ input[type="checkbox"]:checked + label::before {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-
   float: left;
-
   min-width: 164px;
 }
 
 .sorter {
   display: inline-block;
-
   margin-top: 5px;
-
   vertical-align: middle;
 }
 
@@ -1015,29 +893,22 @@ input[type="checkbox"]:checked + label::before {
 
 .sorter ul {
   font-size: 0;
-
   display: inline-block;
-
   padding: 0;
   padding-left: 35px;
-
   vertical-align: bottom;
 }
 
 .sorter li {
   font-size: 12px;
   line-height: 18px;
-
   display: inline-block;
-
   margin-right: 34px;
-
   vertical-align: middle;
 }
 
 .sorter a {
   text-decoration: none;
-
   color: #b2b2b2;
   border-bottom: 1px dotted #81b3d2;
 }
@@ -1057,7 +928,6 @@ input[type="checkbox"]:checked + label::before {
 
 .sorter a:active {
   text-decoration: none;
-
   color: #000;
   border-bottom: none;
 }
@@ -1068,12 +938,9 @@ input[type="checkbox"]:checked + label::before {
 
 .triangles a {
   font-family: Arial;
-
   display: inline-block;
-
   vertical-align: middle;
   text-decoration: none;
-
   color: #ccc;
 }
 
@@ -1107,7 +974,6 @@ input[type="checkbox"]:checked + label::before {
   padding-right: 6%;
   padding-bottom: 30px;
   padding-left: 6%;
-
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1117,7 +983,6 @@ input[type="checkbox"]:checked + label::before {
 
 .result-item img {
   float: left;
-
   margin-right: 30px;
 }
 
@@ -1128,7 +993,6 @@ input[type="checkbox"]:checked + label::before {
 
 .result-content .result-title {
   line-height: 26px;
-
   margin: 0;
   margin-top: -5px;
   margin-bottom: 8px;
@@ -1142,9 +1006,7 @@ input[type="checkbox"]:checked + label::before {
 .result-content .result-type {
   font-size: 14px;
   display: inline-block;
-
   width: 116px;
-
   vertical-align: top;
 }
 
@@ -1155,7 +1017,6 @@ input[type="checkbox"]:checked + label::before {
 
 .result-title a {
   text-decoration: none;
-
   color: #000;
 }
 
@@ -1169,15 +1030,11 @@ input[type="checkbox"]:checked + label::before {
 
 .result-btn a {
   font-weight: bold;
-
   display: inline-block;
-
   margin-right: 2px;
   padding: 3px 17px;
-
   vertical-align: middle;
   text-decoration: none;
-
   color: #fff;
 }
 
@@ -1220,46 +1077,37 @@ input[type="checkbox"]:checked + label::before {
 .stars-1 {
   position: absolute;
   right: 0;
-
   width: 91px;
   height: 19px;
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -1114px -10px;
+  background-position: -15px -109px;
 }
 
 .stars-2 {
   position: absolute;
   right: 0;
-
   width: 43px;
   height: 19px;
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -964px -10px;
+  background-position: -15px -15px;
 }
 
 .stars-3 {
   position: absolute;
   right: 0;
-
   width: 67px;
   height: 19px;
-
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: -1027px -10px;
+  background-position: -15px -62px;
 }
 
 .result-rating-number {
   display: inline-block;
-
   padding: 3px 13px;
-
   vertical-align: middle;
-
   color: #8b8b8b;
   background: #f2f2f2;
 }
@@ -1268,14 +1116,12 @@ input[type="checkbox"]:checked + label::before {
 .run-js .booking-form {
   display: none;
   overflow: hidden;
-
   height: 0;
 }
 
 .run-js .booking-form-show {
   display: block;
   overflow: visible;
-
   height: auto;
   animation: to-down .5s;
 }
