@@ -9,22 +9,14 @@ body {
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-}
-
-@media (min-width: 1200px) {
-  body {
-    background: #f2f2f2;
-  }
-
-  .wrapper {
-    background: white;
-  }
+  background: #f2f2f2;
 }
 
 .wrapper {
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 20px -7px #000101;
+  
 }
 
 .clearfix::after {
