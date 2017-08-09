@@ -3,7 +3,7 @@
 * Студент: [Александр Соколов](https://up.htmlacademy.ru/htmlcss/15/user/275301).
 * Наставник: `Шамиль Алисултанов`.
 
-* GitHub Pages: https://sokolovag.github.io/275301-sedona/
+* GitHub Pages: https://sokolovag.github.io/Sedona_HTML_Academy/
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
